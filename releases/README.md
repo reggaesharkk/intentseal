@@ -41,4 +41,7 @@
 - adversarial cases: 33/33 rejected
 - Demonstrator 001: CERTIFIED
 - Demonstrator 002: EVIDENCE_BOUND; N11 package checker PASS
-- DOI: none yet
+- DOI: [10.5281/zenodo.23018459](https://doi.org/10.5281/zenodo.23018459)
+- Record: https://zenodo.org/records/23018459
+- License: All Rights Reserved
+- Publication date: 2026-09-28

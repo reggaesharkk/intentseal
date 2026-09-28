@@ -42,7 +42,11 @@ Deterministic certificate digest:
 
 `09209816a034020076e0f66e1b8924b6dd1567c95f7159070f58ce62ac597a8f`
 
-Final release gates: 30/30 tests PASS; 33/33 adversarial cases rejected; certificate-bound promotion PASS; certificate-bound dual seal PASS; public verifier-source trust anchor recorded. No VRK DOI is claimed yet.
+Final release gates: 30/30 tests PASS; 33/33 adversarial cases rejected; certificate-bound promotion PASS; certificate-bound dual seal PASS; public verifier-source trust anchor recorded.
+
+Zenodo software record: [10.5281/zenodo.23018459](https://doi.org/10.5281/zenodo.23018459) (https://zenodo.org/records/23018459)  
+Publication date: 2026-09-28  
+License: All Rights Reserved
 
 ## Demonstrators
 

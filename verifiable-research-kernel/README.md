@@ -63,4 +63,4 @@ Evidence certification and IntentSeal publication authority remain separate. The
 
 Neither demonstrator establishes any continuum Navier–Stokes theorem or universal physical claim.
 
-No VRK DOI is claimed yet.
+Zenodo record: [10.5281/zenodo.23018459](https://doi.org/10.5281/zenodo.23018459) (https://zenodo.org/records/23018459). Publication date: 2026-09-28. License: All Rights Reserved. This DOI identifies only the separate VRK v0.3.1 software archive; it does not identify the foundational Verification Kernel lineage.
