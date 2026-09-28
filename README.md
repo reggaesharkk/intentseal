@@ -15,7 +15,10 @@ Foundational IntentSeal archive:
 
 SHA-256: `05ba923c90dfc481a70a3784b72d1cd71a0adeac2c34a22631169f545ae5d4c0`  
 Size: **161,324 bytes**  
-License: **All Rights Reserved**
+License: **All Rights Reserved**  
+Zenodo DOI: [10.5281/zenodo.23016445](https://doi.org/10.5281/zenodo.23016445)
+
+This DOI identifies only the frozen v0.1.1–v0.5.0 Verification Kernel archive; it is not a DOI for the separate VRK.
 
 VRK v0.3.0 archive:
 
