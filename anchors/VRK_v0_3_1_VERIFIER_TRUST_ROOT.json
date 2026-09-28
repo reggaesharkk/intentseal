@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-28",
+  "schema": "intentseal-vrk-verifier-trust-root-v1",
+  "scope": "all VRK verifier/kernel sources required for v0.3.1 clean-room certification",
+  "sources": {
+    "src/intentseal_vrk/__init__.py": "3cbeb7a8ef651b6ce80f93c0fe672e227792f5c3c8337a60f9d7490af877682e",
+    "src/intentseal_vrk/authority.py": "79333f10466a452c3ac54bebf4e18416e79d5129bf3de85671099093f9cb302b",
+    "src/intentseal_vrk/canonical.py": "6d090bc16273a53e3037b13db55722a1755ea63a91fb649731589e25244eaba8",
+    "src/intentseal_vrk/capsule.py": "842a4609c012e9d411a83c201e0287e004b99da6f445de1258645df48bf898f6",
+    "src/intentseal_vrk/cli.py": "d7bbe45eb7efa6138a174eac7cac81ba676ea0e4e730b82106a4824be2c7f345",
+    "src/intentseal_vrk/domains.py": "c161853d375a11ab817061a3e7e528892bd160732970845455f046f6f33db104",
+    "src/intentseal_vrk/evidence.py": "027e331ee1a2e69ac13166413d6a781504514fa5b45d70dddafdfee9ab47b862",
+    "src/intentseal_vrk/graph.py": "132df33b6c5654659c8782ca3a66694ebc3f52d2c4760ab17c69e0dcfa51d6e1",
+    "src/intentseal_vrk/ledger.py": "9cf6c8370e9e9d72c6e262eb52d60e56117b626c7f2e4cc608ea9902feee4056",
+    "src/intentseal_vrk/plugins.py": "a2232e54ea0c0dbf4ab20c810ca775890a4fc81c1b04596cfcbdedefffe0be20",
+    "src/intentseal_vrk/promotion.py": "d21d25590215f37b8c9aec6a815d2f4c61816dad4d6dfac10f5925c70108058e",
+    "src/intentseal_vrk/redteam.py": "e64ef3cbe7691daf1f5eb6731bfa7814d03be93d2d5c4dfebaf880b68f8e1001",
+    "src/intentseal_vrk/registry.py": "82e9dd5f8a39f669aa513228fd3e9633cc25a17d30e6c8ed15704840fcc45188",
+    "src/intentseal_vrk/release.py": "39aded5c9557f01b0f50d82eecb2b1352201a5abb646ed77ed86ef822034417a",
+    "src/intentseal_vrk/trust.py": "140aa22d0cc4ae03ebc94a2d7ccbc9513239d34239bfbdeeb2a1436499f5e768",
+    "src/intentseal_vrk/types.py": "daa75cc1fe811f1130b0dd5a10f219f1480fe4520ac18372b7ec0fd88df35a2a",
+    "src/intentseal_vrk/verify.py": "d03075d0b7be7ae0f85bee66ba8001726485f5f0b65f43d7e341f736ca7088b3",
+    "tools/clean_room_verify.py": "63672bd2aa60248ba77f9a7eb35a5389f1f0571b7f716352980379d31f0d105f",
+    "tools/replay_lrsc_theta07.py": "1b74da45b70f8fe1c453ecaef74833b762f706e9aff679098017ea8e7783f812",
+    "tools/verify_lrsc_replay.py": "ff6431555b6ec16eb65723132a6f0f2abd88d2aef6a341ed36b7586732935f2d",
+    "tools/verify_n11_k36_certificate.py": "b1aa47c13fe105f3083565d464d7ddd33e42caa51bddb00b60dc1a351e9678df",
+    "vendor/lrsc/lrsc_interval_certificate.py": "e2713beb117df8d39641549c6dbb12ce0f5396c4ea2b1e19cfcb744a9ab96ce3",
+    "vendor/lrsc/rigorous_coordinate_search.cpp": "152a83de7ce76bb566a40a82ae143028158204932520f9b0d19efa5e2570fa0e"
+  },
+  "trust_root_digest": "f010a99d78b360b8fd5dc9b727f21b898889c6e75e3093cc22d6f04d005a0d0f",
+  "version": "0.3.1"
+}
