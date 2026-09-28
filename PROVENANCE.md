@@ -10,6 +10,8 @@ The public name **IntentSeal Verification Kernel** replaced the earlier working 
 - SHA-256: `05ba923c90dfc481a70a3784b72d1cd71a0adeac2c34a22631169f545ae5d4c0`
 - size: 161,324 bytes
 - license: All Rights Reserved
+- Zenodo DOI: `10.5281/zenodo.23016445`
+- Zenodo record: https://zenodo.org/records/23016445
 
 ## VRK lineage
 
