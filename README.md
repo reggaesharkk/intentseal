@@ -28,11 +28,21 @@ SHA-256: `b01178e81b0e0f07c67a883d8e51430f8af0dc608c5246ee925f6c5c17c0b52c`
 
 Demonstrator 001 is the finite LRSC (M=99, k_{idx}=49, A=1/2, 	heta=0.07) claim (K_{0.001}=14). v0.3.0 accounted for exactly **527,046,644,056** K=0..13 subsets and verified the direct interval K14 witness.
 
-A **v0.3.1 candidate** exists but is not a final release. Its deterministic certificate digest is:
+**VRK v0.3.1 is now the final release.**
 
-`b0e58b19a4830e8ad4f9d5dbad0d1d354a4e7ce02ed9b7ca5ada05f6e1ba0a62`
+Artifact:
 
-Open release gates remain before any VRK DOI.
+`IntentSeal_Verifiable_Research_Kernel_v0_3_1.zip`
+
+SHA-256:
+
+`c18c4c697d8188490e96530cfb5ddcb2e63f7c65aa560415401b1541e575cd79`
+
+Deterministic certificate digest:
+
+`09209816a034020076e0f66e1b8924b6dd1567c95f7159070f58ce62ac597a8f`
+
+Final release gates: 30/30 tests PASS; 33/33 adversarial cases rejected; certificate-bound promotion PASS; certificate-bound dual seal PASS; public verifier-source trust anchor recorded. No VRK DOI is claimed yet.
 
 ## Demonstrators
 

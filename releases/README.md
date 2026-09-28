@@ -27,3 +27,18 @@
 - deterministic certificate digest: `b0e58b19a4830e8ad4f9d5dbad0d1d354a4e7ce02ed9b7ca5ada05f6e1ba0a62`
 - status: **candidate, not final**
 - DOI: none
+
+
+## VRK v0.3.1 final
+
+- archive: `IntentSeal_Verifiable_Research_Kernel_v0_3_1.zip`
+- SHA-256: `c18c4c697d8188490e96530cfb5ddcb2e63f7c65aa560415401b1541e575cd79`
+- size: 177,783 bytes
+- ZIP entries: 89
+- checksum-manifest entries: 88
+- deterministic certificate digest: `09209816a034020076e0f66e1b8924b6dd1567c95f7159070f58ce62ac597a8f`
+- tests: 30/30 PASS
+- adversarial cases: 33/33 rejected
+- Demonstrator 001: CERTIFIED
+- Demonstrator 002: EVIDENCE_BOUND; N11 package checker PASS
+- DOI: none yet
