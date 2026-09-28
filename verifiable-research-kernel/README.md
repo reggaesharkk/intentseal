@@ -43,6 +43,8 @@ Scientific certificate archive SHA-256:
 
 Final package check: PASS.
 
+A separate full Arb replay of the frozen N11 archive also passed, recomputing all 120 segment enclosures with the pinned NumPy 2.3.5 and python-flint 0.9.0. [Machine-readable replay result](https://github.com/reggaesharkk/Reggae-shark-universe-/blob/main/verifiable-research-kernel/evidence/N11_Arb_Independent_Replay_2026_09_28.json) (SHA-256: `8c8b8fe65a359e5fa430cccfa00d7a48b72f0536959ec194d779aa3fda691e39`).
+
 VRK state: **EVIDENCE_BOUND**.
 
 That lower state is deliberate because v0.3.1 does not independently regenerate all 120 Arb enclosures. It verifies the frozen package and theorem gates without silently inheriting the external project's stronger interval-certification status.
