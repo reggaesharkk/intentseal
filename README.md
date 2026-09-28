@@ -1,2 +1,53 @@
-# intentseal
-IntentSeal — verification infrastructure for authorized agent actions and proof-carrying scientific claims.
+# IntentSeal
+
+Verification infrastructure for authorized agent actions and proof-carrying scientific claims.
+
+IntentSeal is program 06 of the Reggae Shark Universe and contains two distinct research-prototype layers:
+
+- **IntentSeal Verification Kernel** — frozen v0.1.1–v0.5.0 lineage for mediated privileged actions, policy, budgets, review, provenance, rate limiting, and audit records.
+- **IntentSeal Verifiable Research Kernel (VRK)** — proof-carrying scientific-claim verification with separate proposition, evidence, dependency, epistemic-state, and publication-authority identities.
+
+## Current state — 28 September 2026
+
+Foundational IntentSeal archive:
+
+`IntentSeal_Verification_Kernel_Prototype_Lineage_v0_1_1_to_v0_5_0 (1).zip`
+
+SHA-256: `05ba923c90dfc481a70a3784b72d1cd71a0adeac2c34a22631169f545ae5d4c0`  
+Size: **161,324 bytes**  
+License: **All Rights Reserved**
+
+VRK v0.3.0 archive:
+
+`IntentSeal_Verifiable_Research_Kernel_v0_3_0.zip`
+
+SHA-256: `b01178e81b0e0f07c67a883d8e51430f8af0dc608c5246ee925f6c5c17c0b52c`
+
+Demonstrator 001 is the finite LRSC (M=99, k_{idx}=49, A=1/2, 	heta=0.07) claim (K_{0.001}=14). v0.3.0 accounted for exactly **527,046,644,056** K=0..13 subsets and verified the direct interval K14 witness.
+
+A **v0.3.1 candidate** exists but is not a final release. Its deterministic certificate digest is:
+
+`b0e58b19a4830e8ad4f9d5dbad0d1d354a4e7ce02ed9b7ca5ada05f6e1ba0a62`
+
+Open release gates remain before any VRK DOI.
+
+## Demonstrators
+
+- Demonstrator 001: finite LRSC certificate.
+- Demonstrator 002: finite N11 K36 crossing certificate using 120 whole-segment Arb enclosures.
+
+For Demonstrator 002, the certified finite theorem is limited to one fixed post-hoc N11 Fourier-Galerkin trajectory. It does **not** establish continuum Navier–Stokes regularity, blowup, all-cutoff persistence, or a Millennium-problem result.
+
+Canonical scientific repositories remain:
+
+- https://github.com/reggaesharkk/lrsc-odd-ring-spectral-rank
+- https://github.com/reggaesharkk/navier-stokes-bridge-audit
+- https://github.com/reggaesharkk/Reggae-shark-universe-
+
+## Scientific firewall
+
+IntentSeal is not a universal truth oracle and is not presented as a production security boundary. Evidence certification and action/publication authority remain separate questions.
+
+## Author
+
+Prince Upadhyay — Independent Research
