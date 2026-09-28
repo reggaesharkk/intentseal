@@ -1,46 +1,66 @@
-# IntentSeal Verifiable Research Kernel
+# IntentSeal Verifiable Research Kernel (VRK)
 
-VRK is the scientific-claim verification layer inside IntentSeal. It treats scientific claims as typed objects with explicit proposition identity, evidence bindings, dependencies, verifier outputs, scope boundaries, and promotion state.
+## Current release — v0.3.1
 
-## Current release state
+Artifact: `IntentSeal_Verifiable_Research_Kernel_v0_3_1.zip`
 
-### v0.3.0 — frozen historical baseline
+SHA-256:
 
-Artifact SHA-256:
+`c18c4c697d8188490e96530cfb5ddcb2e63f7c65aa560415401b1541e575cd79`
 
-`b01178e81b0e0f07c67a883d8e51430f8af0dc608c5246ee925f6c5c17c0b52c`
-
-Demonstrator 001 finite LRSC result:
-
-- K0..K13 exact coverage: 527,046,644,056 / 527,046,644,056
-- K13 search nodes under proof-preserving channel permutation: 3,432
-- K14 direct interval witness: PASS
-- tests: 22/22 PASS
-- adversarial mutations: 13/13 rejected
-
-Kernel identities:
-
-- proposition digest: `c8e24478afe2579f25020ded46f93e379b414caf4dc466f45e0dac0a854ec0cf`
-- claim digest: `78f86c4935699ff78ec658ba4856804b74908e5b23d83ef39b11cf592d241296`
-- evidence root: `5822eba24c030bf6005a414a19d75e7c5836f489349d7954ec25a192f65b50f9`
-- dependency root: `d067270a3a25b60d39fe9fa7185f77d1cb6d038e7925062325f00c4a8a6b4738`
-
-### v0.3.1 — candidate only
-
-Candidate SHA-256:
-
-`5ab780860ac1f7629e51ecaacff4ed0003b34909eea6ef47815f7d27a2d47ba5`
+Size: **177,783 bytes**  
+ZIP entries: **89**  
+Checksum-manifest entries: **88**
 
 Deterministic certificate digest:
 
-`b0e58b19a4830e8ad4f9d5dbad0d1d354a4e7ce02ed9b7ca5ada05f6e1ba0a62`
+`09209816a034020076e0f66e1b8924b6dd1567c95f7159070f58ce62ac597a8f`
 
-The candidate is **not final**. Open gates include the expanded adversarial suite, certificate-bound promotion and authority receipts, and an external trust anchor for all verifier sources.
+### Demonstrator 001 — finite LRSC
 
-## Evidence versus authority
+- state: **CERTIFIED**
+- K0..K13 exact coverage: **527,046,644,056**
+- K13 search nodes: **3,432**
+- K14 integer interval witness: PASS
+- tests: **30/30 PASS**
+- adversarial cases: **33/33 rejected**
+- promotion: **EVIDENCE_BOUND -> CERTIFIED**
+- certificate-bound dual seal: PASS
 
-VRK evidence certification and IntentSeal action/publication authority are intentionally separate. A stronger epistemic label cannot be obtained merely by possessing an authority receipt, and a scientific certificate does not grant privileged execution authority.
+Verifier-source trust root digest:
 
-## Scope
+`f010a99d78b360b8fd5dc9b727f21b898889c6e75e3093cc22d6f04d005a0d0f`
 
-A VRK `CERTIFIED` state means that the stated finite-domain verifier accepted the required evidence package under the declared semantics. It is not peer review and not a universal truth claim.
+Public anchor commit:
+
+`e3b43046346c91faf2333d18d50c87012c8b162a`
+
+### Demonstrator 002 — finite N11 K36 crossing
+
+Scientific certificate archive SHA-256:
+
+`d29224e1dd4ad9f9454951415a3b080bc9f092839e24caaeddd056013785cfbe`
+
+Final package check: PASS.
+
+VRK state: **EVIDENCE_BOUND**.
+
+That lower state is deliberate because v0.3.1 does not independently regenerate all 120 Arb enclosures. It verifies the frozen package and theorem gates without silently inheriting the external project's stronger interval-certification status.
+
+See [the final release audit](VRK_v0_3_1_FINAL_2026_09_28.md).
+
+## Historical baseline
+
+v0.3.0 remains immutable:
+
+`b01178e81b0e0f07c67a883d8e51430f8af0dc608c5246ee925f6c5c17c0b52c`
+
+The scientific proposition identity for Demonstrator 001 is unchanged across the evidence promotion.
+
+## Boundary
+
+Evidence certification and IntentSeal publication authority remain separate. The included authority seal is a symmetric HMAC demonstration, not production authorization infrastructure.
+
+Neither demonstrator establishes any continuum Navier–Stokes theorem or universal physical claim.
+
+No VRK DOI is claimed yet.
