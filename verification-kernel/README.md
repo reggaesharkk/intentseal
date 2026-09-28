@@ -52,8 +52,11 @@ The earlier 148371-byte pre-publication outer archive was superseded; its hash i
 
 ## DOI status
 
-This package is prepared for a Zenodo **software** deposit under the title:
+The frozen lineage is published as Zenodo software under the title:
 
 **IntentSeal Verification Kernel: Frozen Prototype Lineage v0.1.1–v0.5.0**
 
-No DOI is claimed until Zenodo actually publishes the deposit.
+DOI: [10.5281/zenodo.23016445](https://doi.org/10.5281/zenodo.23016445)  
+Record: https://zenodo.org/records/23016445
+
+This DOI applies only to the frozen v0.1.1–v0.5.0 Verification Kernel lineage. It does not identify the separate Verifiable Research Kernel (VRK).

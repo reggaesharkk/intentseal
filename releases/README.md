@@ -5,9 +5,10 @@
 - archive: `IntentSeal_Verification_Kernel_Prototype_Lineage_v0_1_1_to_v0_5_0 (1).zip`
 - SHA-256: `05ba923c90dfc481a70a3784b72d1cd71a0adeac2c34a22631169f545ae5d4c0`
 - size: 161,324 bytes
-- status: frozen, ready for external archival deposit
+- status: frozen and published on Zenodo
 - license: All Rights Reserved
-- DOI: none claimed as of 28 September 2026
+- DOI: [10.5281/zenodo.23016445](https://doi.org/10.5281/zenodo.23016445)
+- record: https://zenodo.org/records/23016445
 
 ## VRK v0.3.0
 
