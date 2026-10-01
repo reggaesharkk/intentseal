@@ -1,5 +1,7 @@
 # IntentSeal
 
+> **Rights boundary — effective 1 October 2026:** New author-owned original material first published here from this date is **All Rights Reserved** by default. Earlier express licenses remain in force for the material they cover. Read [the rights policy](RIGHTS_POLICY_2026_10_01.md) and the [shared portfolio evidence standard](https://github.com/reggaesharkk/Reggae-shark-universe-/blob/main/PORTFOLIO_EVIDENCE_AND_RIGHTS_STANDARD_2026_10_01.md).
+
 Verification infrastructure for authorized agent actions and proof-carrying scientific claims.
 
 IntentSeal is program 06 of the Reggae Shark Universe and contains two distinct research-prototype layers:
